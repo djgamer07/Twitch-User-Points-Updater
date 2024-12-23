@@ -35,6 +35,7 @@ This Node.js script updates a MySQL database with Twitch user information, inclu
 2. Check the `usererros.txt` file for any errors during the process.
 
 ## Notes
+- **This script is designed to be used after [StreamElements-Leaderboard-Scraper](https://github.com/djgamer07/StreamElements-Leaderboard-Scraper), but it can be adapted for any purpose!**
 - Ensure your database is configured correctly with a table named `points` having the columns `user_id`, `name`, and `points`.
 - Grant sufficient privileges to the database user for inserting and updating data.
 - Twitch API credentials are required to access user data. You can generate them from the Twitch Developer Portal.
@@ -78,6 +79,7 @@ Este script em Node.js atualiza um banco de dados MySQL com informações de usu
 2. Verifique o arquivo `usererros.txt` para erros durante o processo.
 
 ## Notas
+- **Este script foi feito para ser utilizado após o [StreamElements-Leaderboard-Scraper](https://github.com/djgamer07/StreamElements-Leaderboard-Scraper), mas pode ser adaptado a qualquer necessidade!**
 - Certifique-se de que seu banco de dados está configurado corretamente com uma tabela chamada `points` contendo as colunas `user_id`, `name` e `points`.
 - Conceda privilégios suficientes ao usuário do banco de dados para inserir e atualizar dados.
 - As credenciais da API da Twitch são necessárias para acessar os dados dos usuários. Você pode gerá-las no Portal de Desenvolvedores da Twitch.
